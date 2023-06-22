@@ -1,0 +1,66 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png");
+    background-size: cover;
+
+}
+
+#logo{
+    width: 150px;
+    margin-left: 45vw;
+    margin-top: 2%;
+}
+
+section{
+    display: flex;
+    justify-content:center;
+    margin-top: 3%;
+}
+
+#first-block,#second-block{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 5%;
+}
+
+#first-block{
+    background-color: #005fa2;
+}
+
+#second-block{
+    background-color: #1fa83d;
+}
+
+h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 64px;
+
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-flex;
+    margin-right: 5px;
+
+}
+
+span{
+    color: white;
+    font-family: sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+#controls > img{
+    width:100px;
+    margin-right: 5%;
+}
